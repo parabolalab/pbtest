@@ -1,0 +1,32 @@
+{
+    "name": "parabol/parabol-pbtest",
+    "type": "test",
+    "minimum-stability": "dev",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marcin Kalota",
+            "email": "marcin@parabolalab.com",
+            "homepage": "http://www.parabolalab.com"
+        }
+    ],
+    "require" : {
+        "php": ">=5.6.0"
+    },
+    "scripts": {
+        "parabol-scripts": [
+            "Parabol\\PbTest\\Composer\\ScriptHandler::run"
+        ],
+        "post-install-cmd": [
+            "@parabol-scripts"
+        ],
+        "post-update-cmd": [
+            "@parabol-scripts"
+        ]
+    },
+    "autoload": {
+        "psr-4": { "Parabol\\PbTest": "" }
+    },
+    "target-dir": "Parabol/PbTest"
+
+}
