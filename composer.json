@@ -17,10 +17,10 @@
         "parabol-scripts": [
             "Parabol\\PbTest\\Composer\\ScriptHandler::run"
         ],
-        "post-install-cmd": [
+        "post-package-install": [
             "@parabol-scripts"
         ],
-        "post-update-cmd": [
+        "post-package-install": [
             "@parabol-scripts"
         ]
     },
