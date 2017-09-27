@@ -7,6 +7,6 @@ class ScriptHandler
 	
 	public static function run($event)
 	{
-		var_dump(driname(__FILE__));
+		var_dump(dirname(__FILE__));
 	}
 }

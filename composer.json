@@ -13,17 +13,6 @@
     "require" : {
         "php": ">=5.6.0"
     },
-    "scripts": {
-        "parabol-scripts": [
-            "Parabol\\PbTest\\Composer\\ScriptHandler::run"
-        ],
-        "post-package-install": [
-            "@parabol-scripts"
-        ],
-        "post-package-install": [
-            "@parabol-scripts"
-        ]
-    },
     "autoload": {
         "psr-4": { "Parabol\\PbTest\\": "" }
     }
